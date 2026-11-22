@@ -1,0 +1,7 @@
+[
+  {"id": "PA-0001", "patient_id": "SYN-10001", "policy_id": "SHP-RX-GLP1-001", "drug": "semaglutide", "dose": "0.25 mg weekly, titrating to 1 mg", "diagnosis_code": "E11.65", "requested_on": "2025-10-01", "prescriber_specialty": "primary_care"},
+  {"id": "PA-0002", "patient_id": "SYN-10002", "policy_id": "SHP-RX-GLP1-001", "drug": "semaglutide", "dose": "0.25 mg weekly", "diagnosis_code": "E11.9", "requested_on": "2025-10-01", "prescriber_specialty": "primary_care"},
+  {"id": "PA-0003", "patient_id": "SYN-10003", "policy_id": "SHP-RX-GLP1-001", "drug": "semaglutide", "dose": "0.25 mg weekly", "diagnosis_code": "E11.22", "requested_on": "2025-10-01", "prescriber_specialty": "nephrology"},
+  {"id": "PA-0004", "patient_id": "SYN-10004", "policy_id": "SHP-RX-TNF-001", "drug": "adalimumab", "dose": "40 mg every other week", "diagnosis_code": "M06.9", "requested_on": "2025-10-01", "prescriber_specialty": "rheumatology"},
+  {"id": "PA-0005", "patient_id": "SYN-10005", "policy_id": "SHP-RX-TNF-001", "drug": "adalimumab", "dose": "40 mg every other week", "diagnosis_code": "M06.9", "requested_on": "2025-10-01", "prescriber_specialty": "primary_care"}
+]

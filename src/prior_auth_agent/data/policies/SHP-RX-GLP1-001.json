@@ -1,0 +1,14 @@
+{
+  "id": "SHP-RX-GLP1-001",
+  "payer": "Synthetic Health Plan (fictional)",
+  "title": "GLP-1 receptor agonists for type 2 diabetes",
+  "drug": "semaglutide",
+  "drug_class": "glp1_agonist",
+  "effective": "2025-01-01",
+  "criteria": [
+    {"kind": "diagnosis", "id": "dx", "description": "Diagnosis of type 2 diabetes mellitus", "any_of": ["E11"]},
+    {"kind": "age", "id": "age", "description": "Patient is 18 years or older", "min_age": 18},
+    {"kind": "lab", "id": "a1c", "description": "HbA1c of 7.0% or higher within the last 90 days", "test": "hba1c", "op": ">=", "value": 7.0, "unit": "%", "within_days": 90},
+    {"kind": "step_therapy", "id": "metformin-trial", "description": "Trial of metformin for at least 90 days with inadequate control, or intolerance, or contraindication", "drug_classes": ["biguanide"], "min_days": 90}
+  ]
+}
