@@ -1,0 +1,14 @@
+{
+  "id": "SHP-RX-TNF-001",
+  "payer": "Synthetic Health Plan (fictional)",
+  "title": "TNF inhibitors for rheumatoid arthritis",
+  "drug": "adalimumab",
+  "drug_class": "tnf_inhibitor",
+  "effective": "2025-01-01",
+  "criteria": [
+    {"kind": "diagnosis", "id": "dx", "description": "Diagnosis of rheumatoid arthritis", "any_of": ["M05", "M06"]},
+    {"kind": "age", "id": "age", "description": "Patient is 18 years or older", "min_age": 18},
+    {"kind": "step_therapy", "id": "csdmard-trial", "description": "Trial of a conventional DMARD such as methotrexate for at least 12 weeks with inadequate response, or intolerance, or contraindication", "drug_classes": ["csdmard"], "min_days": 84},
+    {"kind": "specialist", "id": "rheumatology", "description": "Prescribed by or in consultation with a rheumatologist within the last 180 days", "specialties": ["rheumatology"], "within_days": 180}
+  ]
+}

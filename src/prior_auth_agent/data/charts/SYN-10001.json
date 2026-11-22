@@ -1,0 +1,19 @@
+{
+  "patient": {"id": "SYN-10001", "birth_date": "1968-04-12", "sex": "female"},
+  "diagnoses": [
+    {"code": "E11.65", "description": "Type 2 diabetes mellitus with hyperglycemia", "onset": "2019-06-03"},
+    {"code": "I10", "description": "Essential (primary) hypertension", "onset": "2017-02-20"}
+  ],
+  "medications": [
+    {"name": "metformin", "drug_class": "biguanide", "dose": "1000 mg twice daily", "start": "2019-06-03", "end": "2025-08-14", "stop_reason": "ineffective"},
+    {"name": "lisinopril", "drug_class": "ace_inhibitor", "dose": "10 mg once daily", "start": "2017-02-20"}
+  ],
+  "labs": [
+    {"test": "hba1c", "value": 8.1, "unit": "%", "collected": "2025-03-02"},
+    {"test": "hba1c", "value": 8.6, "unit": "%", "collected": "2025-08-14"},
+    {"test": "egfr", "value": 78, "unit": "mL/min/1.73m2", "collected": "2025-08-14"}
+  ],
+  "encounters": [
+    {"id": "enc-10001-1", "day": "2025-08-14", "kind": "office", "specialty": "primary_care", "diagnosis_codes": ["E11.65", "I10"], "note": "HbA1c 8.6% despite metformin 1000 mg twice daily for over 6 years. Metformin stopped as ineffective at max tolerated dose. Plan GLP-1 receptor agonist."}
+  ]
+}

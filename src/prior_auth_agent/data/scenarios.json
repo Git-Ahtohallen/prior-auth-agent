@@ -1,0 +1,7 @@
+[
+  {"request_id": "PA-0001", "expected_unmet": [], "summary": "Meets every criterion: long metformin trial stopped as ineffective, recent HbA1c 8.6%."},
+  {"request_id": "PA-0002", "expected_unmet": ["metformin-trial"], "summary": "Metformin started only 44 days before the request and is still running."},
+  {"request_id": "PA-0003", "expected_unmet": ["a1c"], "summary": "Metformin is contraindicated (CKD stage 4), which satisfies step therapy, but the last HbA1c is older than 90 days."},
+  {"request_id": "PA-0004", "expected_unmet": [], "summary": "Meets every criterion: 7-month methotrexate trial failed, recent rheumatology visit."},
+  {"request_id": "PA-0005", "expected_unmet": ["rheumatology"], "summary": "Methotrexate stopped early for liver toxicity (intolerance counts), but the last rheumatology visit was 19 months ago."}
+]

@@ -1,0 +1,16 @@
+{
+  "patient": {"id": "SYN-10002", "birth_date": "1979-11-30", "sex": "male"},
+  "diagnoses": [
+    {"code": "E11.9", "description": "Type 2 diabetes mellitus without complications", "onset": "2025-07-21"}
+  ],
+  "medications": [
+    {"name": "metformin", "drug_class": "biguanide", "dose": "500 mg twice daily", "start": "2025-08-18"}
+  ],
+  "labs": [
+    {"test": "hba1c", "value": 7.6, "unit": "%", "collected": "2025-09-22"}
+  ],
+  "encounters": [
+    {"id": "enc-10002-1", "day": "2025-07-21", "kind": "office", "specialty": "primary_care", "diagnosis_codes": ["E11.9"], "note": "New diagnosis of type 2 diabetes. Lifestyle counseling."},
+    {"id": "enc-10002-2", "day": "2025-09-22", "kind": "telehealth", "specialty": "primary_care", "diagnosis_codes": ["E11.9"], "note": "On metformin for about 5 weeks, tolerating well. Patient asks about GLP-1 options."}
+  ]
+}
