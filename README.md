@@ -15,7 +15,7 @@ All data in this repo is **synthetic**. No real patient data is used.
 
 ```bash
 python -m venv .venv
-# Windows: .venv\Scriptsctivate    macOS/Linux: source .venv/bin/activate
+# Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
 pip install -e ".[dev]"
 pytest
 ```
